@@ -13,6 +13,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
         display: ['"Barlow Condensed"', 'Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
@@ -47,6 +48,9 @@ export default {
           foreground: "hsl(var(--accent-foreground))",
           glow: "hsl(var(--accent-glow))",
         },
+        concrete: "hsl(var(--concrete))",
+        steel: "hsl(var(--steel))",
+        blueprint: "hsl(var(--blueprint))",
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
